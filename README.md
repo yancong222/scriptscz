@@ -1,4 +1,4 @@
-# scriptscz -- Yan Cong, 2021-present
+# scriptscz
 
 This folder contains various scripts and modified code (Python, R, shell) written or modified by Yan Cong starting in 2021 at The Feinstein Institutes for Medical Research.
 
