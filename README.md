@@ -6,12 +6,12 @@ There are five subfolders, each representing a different study. Each subfolder c
 
 ---------------------------------------------
 
-The "classifiers" subfolder: 
+The "classifiers" subfolder: build classifiers to capture speech disorganizations
 
-The "ner" subfolder:
+The "ner" subfolder: name entity recognition in text files
 
-The "pdtb" subfolder:
+The "pdtb" subfolder: use penn-discourse-treebank parser to annotate discourse relations
 
-The "perplexity" subfolder:
+The "perplexity" subfolder: use transformers' perplexity metrics to understand speech incoherence
 
-The "similarity" subfolder:
+The "similarity" subfolder: use transformers' similarity metrics to understand speech inefficiency
