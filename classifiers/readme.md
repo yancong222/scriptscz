@@ -1,1 +1,1 @@
-build classifiers with nlp features, speech (i.e., text + acoustics) processing
+build classifiers with nlp features; speech (i.e., text + acoustics) processing pipeline
