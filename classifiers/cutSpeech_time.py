@@ -21,6 +21,7 @@ all_txt_files = os.listdir(drive_trancript_in_path)
 all_audio_files = os.listdir(mfa_dir + '00_0_audio_raw/')
 
 # !pip install ffmpeg-python
+# python file to process TextGrid dataframe
 import ffmpeg
 from sys import argv
 
