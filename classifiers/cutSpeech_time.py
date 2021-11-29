@@ -21,7 +21,7 @@ all_txt_files = os.listdir(drive_trancript_in_path)
 all_audio_files = os.listdir(mfa_dir + '00_0_audio_raw/')
 
 # !pip install ffmpeg-python
-# python file to process TextGrid dataframe
+# python file to process time-stamps-related dataframe
 import ffmpeg
 from sys import argv
 
@@ -38,11 +38,8 @@ def collect_from_file():
     with open(drive_trancript_in_path + _in_txt) as in_times:
         for l, line in enumerate(in_times):
             tp = line.strip('\n').split('\t')
-            print('here: ', tp)
             tp[0] = make_time(tp[2])
-            print('flag: ', tp[0])
             tp[1] = make_time(tp[3]) - tp[0]
-            print('flag2: ', tp[1])
             # if no name given, append line count
             if len(tp) < 3:
                 tp.append(str(l) + '.wav')
