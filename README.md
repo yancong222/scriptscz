@@ -18,7 +18,7 @@ The "similarity" subfolder: use transformers' similarity metrics to understand s
 
 ```mermaid
 graph TD;
-    A-->B;
+    A-->B see https://github.com/yancong222/scriptscz/blob/main/perplexity/ed_perplexity.py for details;
     A-->C;
     B-->D;
     C-->D;
