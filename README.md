@@ -7,6 +7,8 @@ flowchart LR
     C -- Yes ----> D[T5] ----> G{fill-in-the-mask}
     G --> J[remove stop words] ----> K{static}
     J ----> L{moving window}
+    G --> M[keep stop words] ----> N{static}
+    M ----> O{moving window}
     C -- No ----> E[BERT] ----> H{fill-in-the-mask}
     B -- No ----> F[GPT] ----> I{perplexity}
     click A "https://github.com/yancong222/scriptscz/blob/main/perplexity/ed_perplexity.py" _blank
