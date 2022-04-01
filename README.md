@@ -1,6 +1,6 @@
 # scriptscz
 
-This folder contains various scripts and modified code (Python, R, shell) written or modified by Yan Cong starting in August 2021 at The Feinstein Institutes for Medical Research.
+This folder contains various scripts and modified code (Python, R, shell) written or adapted by Yan Cong starting in August 2021 at The Feinstein Institutes for Medical Research.
 
 There are five subfolders, each representing a different study. Each subfolder contains its own Readme file with a summary of the contents of that folder.
 
@@ -15,3 +15,10 @@ The "pdtb" subfolder: use penn-discourse-treebank parser to annotate discourse r
 The "perplexity" subfolder: use transformers' perplexity metrics to understand speech incoherence
 
 The "similarity" subfolder: use transformers' similarity metrics to understand speech inefficiency
+
+graph TD
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
