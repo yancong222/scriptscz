@@ -17,8 +17,19 @@ The "perplexity" subfolder: use transformers' perplexity metrics to understand s
 The "similarity" subfolder: use transformers' similarity metrics to understand speech inefficiency
 
 ```mermaid
+
+flowchart LR
+    A-->B
+    B-->C
+    C-->D
+    D-->E
+    click A "https://github.com/yancong222/scriptscz/blob/main/perplexity/ed_perplexity.py" _blank
+    click B "http://www.github.com" "Open this in a new tab" _blank
+    click C href "http://www.github.com" _blank
+    click D href "http://www.github.com" "Open this in a new tab" _blank
+    
 graph TD;
-    A-->B see https://github.com/yancong222/scriptscz/blob/main/perplexity/ed_perplexity.py for details;
+    A-->B;
     A-->C;
     B-->D;
     C-->D;
