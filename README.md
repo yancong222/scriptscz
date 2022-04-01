@@ -17,7 +17,6 @@ The "perplexity" subfolder: use transformers' perplexity metrics to understand s
 The "similarity" subfolder: use transformers' similarity metrics to understand speech inefficiency
 
 ```mermaid
-
 flowchart LR
     A-->B
     B-->C
@@ -27,10 +26,4 @@ flowchart LR
     click B "http://www.github.com" "Open this in a new tab" _blank
     click C href "http://www.github.com" _blank
     click D href "http://www.github.com" "Open this in a new tab" _blank
-    
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
 ```
