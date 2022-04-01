@@ -16,9 +16,10 @@ The "perplexity" subfolder: use transformers' perplexity metrics to understand s
 
 The "similarity" subfolder: use transformers' similarity metrics to understand speech inefficiency
 
-graph TD
-    A[Christmas] -->|Get money| B(Go shopping)
-    B --> C{Let me think}
-    C -->|One| D[Laptop]
-    C -->|Two| E[iPhone]
-    C -->|Three| F[fa:fa-car Car]
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
