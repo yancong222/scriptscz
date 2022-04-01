@@ -4,9 +4,9 @@
 flowchart LR
     A[Start] --> B{Does it have Encoder Transformer?}
     B -- Yes --> C[Does it also have Decoder Transformer?]
-    C --> D[Yes] ----> F[T5]
-    C --> E[No] ----> G[BERT]
-    B -- No ----> H[GPT]
+    C --> Yes ----> D[T5]
+    C --> No ----> E[BERT]
+    B -- No ----> F[GPT]
     click A "https://github.com/yancong222/scriptscz/blob/main/perplexity/ed_perplexity.py" _blank
     click B "http://www.github.com" "Open this in a new tab" _blank
     click C href "http://www.github.com" _blank
