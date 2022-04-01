@@ -18,10 +18,11 @@ The "similarity" subfolder: use transformers' similarity metrics to understand s
 
 ```mermaid
 flowchart LR
-    A-->B
-    B-->C
-    C-->D
-    D-->E
+    A[Start] --> B{Is it?}
+    B -- Yes --> C[OK]
+    C --> D[Rethink]
+    D --> B
+    B -- No ----> E[End]
     click A "https://github.com/yancong222/scriptscz/blob/main/perplexity/ed_perplexity.py" _blank
     click B "http://www.github.com" "Open this in a new tab" _blank
     click C href "http://www.github.com" _blank
