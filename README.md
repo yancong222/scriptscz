@@ -1,4 +1,4 @@
-# scriptscz
+# scriptscz [strategy tree here: https://github.com/yancong222/SSD-LM-STanglab]
 
 This folder contains various scripts and modified code (Python, R, shell) written or adapted by Yan Cong starting in August 2021 at The Feinstein Institutes for Medical Research.
 
