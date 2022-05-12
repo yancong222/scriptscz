@@ -1,1 +1,3 @@
-build classifiers with nlp features; speech (i.e., text + acoustics) processing pipeline
+Logistic Regression classifiers with NLP features; 
+
+automatic speech (i.e., text + acoustics) alignment processing pipeline
