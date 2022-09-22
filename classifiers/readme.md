@@ -1,3 +1,3 @@
-Logistic Regression classifiers with NLP features; 
+Logistic Regression classifiers, with NLP features as input; 
 
 automatic speech (i.e., text + acoustics) alignment processing pipeline
