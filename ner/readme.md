@@ -1,1 +1,1 @@
-name entity recognition in multiple text files
+name entity recognition ([ner]) in multiple text files
