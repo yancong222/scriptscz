@@ -1,1 +1,1 @@
-adjecnt sentence similarity, sentence and file-centroid similarity
+adjecnt sentence similarity; consine similarity between sentence and file-centroid 
