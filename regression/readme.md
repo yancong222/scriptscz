@@ -1,4 +1,4 @@
-(single/multiple) linear regression
+single/multiple linear regression
 
 polynomial regression
 
