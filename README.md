@@ -1,4 +1,4 @@
-# scriptscz 
+# scriptscz: 
 
 [strategy tree here: https://github.com/yancong222/SSD-LM-STanglab]
 
