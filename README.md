@@ -1,6 +1,6 @@
 # scriptscz: 
 
-[strategy tree here: https://github.com/yancong222/SSD-LM-STanglab]
+## [strategy tree here: https://github.com/yancong222/SSD-LM-STanglab]
 
 This folder contains scripts and modified code (Python, R, shell) written or adapted by Yan Cong starting in August 2021 at The Feinstein Institutes for Medical Research.
 
@@ -8,14 +8,14 @@ There are five subfolders, each representing a different study. Each subfolder c
 
 ---------------------------------------------
 
-The [classifiers] subfolder: build machine learning classifiers to capture natural language and speech disorganizations
+## [classifiers] subfolder: build machine learning classifiers to capture natural language and speech disorganizations
 
-The [ner] subfolder: name entity recognition (ner) in text files
+## [ner] subfolder: name entity recognition (ner) in text files
 
-The [pdtb] subfolder: use penn-discourse-treebank (pdtb) parser to annotate discourse relations
+## [pdtb] subfolder: use penn-discourse-treebank (pdtb) parser to annotate discourse relations
 
-The [perplexity] subfolder: use transformers' perplexity metrics to understand semantic and pragmatic disorders
+## [perplexity] subfolder: use transformers' perplexity metrics to understand semantic and pragmatic disorders
 
-The [similarity] subfolder: use transformers' cosine similarity metrics to understand semantic and pragmatic disorders
+## [similarity] subfolder: use transformers' cosine similarity metrics to understand semantic and pragmatic disorders
 
 
