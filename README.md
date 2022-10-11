@@ -1,4 +1,4 @@
-# scriptscz: 
+# scriptscz: understanding Schizophrenia using AI
 
 ## [strategy tree here: https://github.com/yancong222/SSD-LM-STanglab]
 
@@ -8,14 +8,19 @@ There are five subfolders, each representing a different study. Each subfolder c
 
 ---------------------------------------------
 
-## [classifiers] subfolder: build machine learning classifiers to capture natural language and speech disorganizations
+## [classifiers] subfolder: 
+build machine learning classifiers to capture natural language and speech disorganizations
 
-## [ner] subfolder: name entity recognition (ner) in text files
+## [ner] subfolder: 
+name entity recognition (ner) in text files
 
-## [pdtb] subfolder: use penn-discourse-treebank (pdtb) parser to annotate discourse relations
+## [pdtb] subfolder: 
+use penn-discourse-treebank (pdtb) parser to annotate discourse relations
 
-## [perplexity] subfolder: use transformers' perplexity metrics to understand semantic and pragmatic disorders
+## [perplexity] subfolder: 
+use transformers' perplexity metrics to understand semantic and pragmatic disorders
 
-## [similarity] subfolder: use transformers' cosine similarity metrics to understand semantic and pragmatic disorders
+## [similarity] subfolder: 
+use transformers' cosine similarity metrics to understand semantic and pragmatic disorders
 
 
