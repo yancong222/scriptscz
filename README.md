@@ -1,6 +1,6 @@
 # scriptscz: understanding Schizophrenia using AI
 
-[strategy tree here: https://github.com/yancong222/SSD-LM-STanglab]
+[UPDATED!! strategy tree here: https://github.com/yancong222/SSD-LM-STanglab]
 
 This folder contains scripts and modified code (Python, R, shell) written or adapted by Yan Cong starting in August 2021 at The Feinstein Institutes for Medical Research.
 
